@@ -1,8 +1,9 @@
+import { DndContext } from "@dnd-kit/core"
 
 const FormBuilder = () => {
-  return (
-    <>Form Builder</>
-  )
+  return <DndContext>
+    
+  </DndContext>
 }
 
 export default FormBuilder
